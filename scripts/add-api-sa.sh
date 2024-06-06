@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Google Cloud CLI is required to run the commands below
+# Refer to latest GCP documentation here: https://cloud.google.com/sdk/docs/install
+# Confirm that you have a supported version of Python. The Google Cloud CLI requires Python 3.8 to 3.12.
+# curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-479.0.0-linux-x86_64.tar.gz
+# tar -xf google-cloud-cli-479.0.0-linux-x86_64.tar.gz
+# ./google-cloud-sdk/install.sh
+# ./google-cloud-sdk/bin/gcloud init
+
 # Enable necessary Google Cloud services
 gcloud services enable \
 compute.googleapis.com \
